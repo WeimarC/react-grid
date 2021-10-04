@@ -1,0 +1,4 @@
+.Colum{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px 250px);
+}
