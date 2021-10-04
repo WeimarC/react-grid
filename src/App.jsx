@@ -7,7 +7,6 @@ const App = () => (
   <>
     <Header />
     <Main />
-    <Columna />
   </>
 );
 export default App;

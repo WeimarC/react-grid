@@ -1,5 +1,4 @@
 .Columna {
-  display: grid;
-  grid-template: repeat(auto-fill);
+  display: flex;
+  flex-direction:column;
 }
-
