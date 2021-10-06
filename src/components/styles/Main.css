@@ -13,3 +13,13 @@
   padding-left: 30px;
   background-clip: padding-box;
 }
+
+.Img {
+  margin-bottom: 5px;
+  border-radius: 15px;
+  cursor: zoom-in;
+}
+
+.Img:hover {
+  filter: opacity(0.9);
+}
