@@ -73,7 +73,7 @@ const Header = () => {
       </button>
       <button className="icon icon-profile">
         <img
-          src="https://randomuser.me/api/portraits/men/32.jpg"
+          src="https://i.pinimg.com/75x75_RS/02/9e/84/029e8488ca3198995616101d06e6b64f.jpg"
           alt="user-face"
         />
       </button>
