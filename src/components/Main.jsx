@@ -1,27 +1,46 @@
-import Columna from "./Columna";
 import "./styles/Main.css";
-import Masonry from "react-masonry-css";
+import Imagen from "./Imagen";
+import Masonry from 'react-masonry-css'
+
 
 const Main = () => {
-  return <main className="Colum" >
+  return <main className="Main" >
     <Masonry
-        breakpointCols={3}
-        className="my-masonry-grid"
-        columnClassName="my-masonry-grid_column"
-      >
-        {/* array of JSX items */}
-      </Masonry>
-    <Columna /> 
-    <Columna />
-    <Columna />
-    <Columna />
-    <Columna />
-    <Columna />
-    <Columna />
-    <Columna />
-    <Columna />
-    <Columna />
-    </main>;
+  breakpointCols={5}
+  className="my-masonry-grid"
+  columnClassName="my-masonry-grid_column">
+
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen /> 
+  <Imagen />
+
+    </Masonry>
+  </main>;
 };
 
 export default Main;
