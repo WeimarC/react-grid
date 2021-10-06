@@ -18,8 +18,9 @@
   margin-bottom: 5px;
   border-radius: 15px;
   cursor: zoom-in;
+  background-color: grey;
 }
 
 .Img:hover {
-  filter: opacity(0.9);
+  filter: opacity(0.5);
 }
